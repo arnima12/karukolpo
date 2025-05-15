@@ -48,7 +48,7 @@ function FeaturedProduct() {
 
   return (
     <section className="py-16 px-6 bg-gradient-to-r from-indigo-50 to-purple-50">
-      <h2 className="text-3xl font-bold text-center mb-12 text-indigo-800">Featured Products</h2>
+      <h2 className="text-3xl font-bold text-center mb-12 text-black">Featured Products</h2>
       <div className="flex flex-wrap gap-8 justify-center">
         {featuredProducts.map((product, index) => (
           <div
