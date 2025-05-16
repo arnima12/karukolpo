@@ -1,5 +1,6 @@
 import React from "react";
 import './Categories.css';
+import { Link } from "react-router";
 const categories = [
   {
     name: "Accessories",
@@ -57,7 +58,8 @@ const Categories = () => {
       <h2 className="text-3xl font-bold text-center mb-12 text-indigo-800">Shop by Category</h2>
       <div className="flex space-x-4 overflow-x-auto hide-scrollbar">
         {categories.map((cat, idx) => (
-          <div
+          <Link
+            to={`/category/${cat.name.toLowerCase()}`}
             key={idx}
             className="min-w-[150px] sm:min-w-[180px] md:min-w-[200px] rounded-xl overflow-hidden cursor-pointer relative group"
           >
@@ -70,7 +72,7 @@ const Categories = () => {
             <div className="text-center p-2 bg-white">
               <h3 className="text-sm font-medium text-gray-700">{cat.name}</h3>
             </div>
-          </div>
+          </Link>
         ))}
       </div>
     </section>

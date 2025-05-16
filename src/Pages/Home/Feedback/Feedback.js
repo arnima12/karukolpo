@@ -58,7 +58,7 @@ function CustomerFeedback() {
 
       <div className="relative flex justify-center items-center">
         {/* Card */}
-        <div className="flex w-full max-w-3xl bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-500">
+        <div className="flex w-full max-w-3xl bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-500 h-64">
           {/* Left Product Image */}
           <img 
             src={currentFeedback.product} 
@@ -100,14 +100,14 @@ function CustomerFeedback() {
         {/* Navigation Buttons */}
         <button
           onClick={handlePrev}
-          className="absolute left-24 p-4 text-purple-500 transform -translate-x-1/2 hover:scale-110 transition-all text-4xl"
+          className="absolute left-0 lg:left-24 p-4 text-purple-500 transform -translate-x-1/2 hover:scale-110 transition-all text-4xl"
         >
           ❮
         </button>
 
         <button
           onClick={handleNext}
-          className="absolute right-24 p-4 text-purple-500 transform translate-x-1/2 hover:scale-110 transition-all text-4xl"
+          className="absolute right-0 lg:right-24 p-4 text-purple-500 transform translate-x-1/2 hover:scale-110 transition-all text-4xl"
         >
           ❯
         </button>

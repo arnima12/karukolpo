@@ -14,10 +14,10 @@ function Contact() {
       ></div>
 
       {/* Main content container */}
-      <div className="relative bg-white bg-opacity-70 rounded-3xl shadow-2xl max-w-5xl w-full grid grid-cols-1 md:grid-cols-2 overflow-hidden">
+      <div className="relative bg-white bg-opacity-70 lg:rounded-3xl rounded-b-3xl rounded-t-3xl shadow-2xl max-w-5xl w-full grid grid-cols-1 md:grid-cols-2 overflow-hidden">
         
         {/* Contact Info Side */}
-        <div className="p-10 bg-opacity-10 bg-black text-black flex flex-col justify-center rounded-l-3xl">
+        <div className="p-10 bg-opacity-10 bg-black text-black flex flex-col justify-center">
           <h2 className="text-4xl font-extrabold mb-6 tracking-tight">
             Get in Touch
           </h2>

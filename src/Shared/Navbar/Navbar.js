@@ -13,7 +13,7 @@ export default function Navbar() {
       <li><Link to="/about">About</Link></li>
     </ul>
     <ul className="flex space-x-6 text-xl">
-      <li><FaShoppingCart/></li>
+      <li><Link to="/cart"><FaShoppingCart/></Link></li>
       <li><FaFacebook /></li>
       <li><AiFillInstagram /></li>
     </ul>
